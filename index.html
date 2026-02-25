@@ -1,11 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width, initial-scale=1.0">
-    <title>our html webseit</title>
+    <title>our html website</title>
 </head>
+
 <body>
+    <!--This is Heading tag-->
+
+    <p>Heading tag start</p>
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+
+    <!--This is Paragraph tag-->
+
+    <p>This is a paragraph.</p>
+<!--italic,blod,small,suppercription,subscription,underline,mark-->
+    <p>This is <i>italic</i>, <b>bold</b>, <small>small</small>, <sup>superscript</sup>, <sub>subscript</sub>, <u>underline</u>, and <mark>highlighted text</mark>.</p>
+    <!--date,time,day,month-->
+    <p>Today's date is: <time datetime="2024-06-01">June 1, 2024</time></p>
+
+    <input type="date" name="date" id="date">
+    <input type="month">
+    <input type="year" name="year" id="year">
+    <input type="time">
+
+<!--image-->
+    <h2>Image tag</h2>
+    <img src="image/zac-durant-_6HzPU9Hyfg-unsplash.jpg" alt="" width="500" height="300"><br>
+    <!--video-->
+    <video src="video/তুমি ছাড়া কেও নেই _ Tumi Chara Kew Nei _ Ahnaf Adil Shafe _ গল্প গানের সুর _ Thanks Tv _ Best Song.mp4" controls width="600px" height="600px"></video>
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/whBZEbuXZZM?si=Oiq42L6VPczDhdD3" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    <!--This is input form tag-->
+
+    <form>
+        <h2>input form</h2>
+
+        <label for="text">Name</label>
+        <input type="text" id="text" name="text"><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="tel">Contact-number</label>
+        <input type="tel" id="contact" name="contact" placeholder="Type your contact number" required>
+
+
+        <!--Radio button-->
+        <p>Gender</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+
+        <!--select options-->
+        <h3>Choose your favorite phone:</h3>
+        <select name="phone" id="phone">
+            <option value="iphone">iPhone</option>
+            <option value="samsung">Samsung Galaxy</option>
+            <option value="google">Google Pixel</option>
+            <option value="oneplus">OnePlus</option>
+            <option value="motorola">Motorola</option>
+        </select>
+
+        <!--checkbox-->
+        <h3>Choose your dinner:</h3>
+        <input type="checkbox" id="food1">
+        <label for="food1">vat+dal</label><br>
+
+        <input type="checkbox" id="food2">
+        <label for="food2">vat + mach</label><br>
+
+        <input type="checkbox" id="food3">
+        <label for="food3">Vat + dim</label><br>
+
+
+        <!--order list-->
+        <h3>Ordered List</h3>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+
+        <!--un-order list-->
+        <h3>Unordered List</h3>
+        <ul>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+            </ul>
+
+        <!--list items-->
+        <h3>List Items</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <!--menu-bar-->
+
+        <h3>Menu Bar</h3>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <!--nested-menubar-->
+            <h3>Nested Menu Bar</h3>
+            <nav>   
+                <ul>
+                    <li><a href="www.google.com">Google</a></li>
+                    <li><a href="www.google.com">Google</a></li>
+                    <li><a href="www.google.com">Skill</a>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">Marketing</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="www.google.com">Google</a></li>
+                    <li><a href="www.google.com">Google</a></li>
+                </ul>
+
+                <!--table-->
+                <h3>Table</h3>
+                <table border="1">
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>30</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>25</td>
+                        <td>Los Angeles</td>
+                    </tr>
+                    <tr>
+                        <td>Mike Johnson</td>
+                        <td>35</td>
+                        <td>Chicago</td>
+                    </tr>
+
+                </table>
+
+         <input type="reset" value="reset">
+        <input type="submit" value="send">
+
+    </form>
     
+
+    
+   
+    
+
 </body>
+
+
+</body>
+
 </html>
